@@ -76,6 +76,9 @@ main hr {
 
 .leftSection .buttons {
   margin: 25px 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
 .leftSection .btn {
@@ -85,7 +88,6 @@ main hr {
   background: #1e2167;
   color: #fff;
   border: 2px solid #fff;
-  width: 150px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -152,21 +154,6 @@ main hr {
 footer {
   background-color: #0e0e1a;
   color: #fff;
-  height: 200px;
-}
-
-.footer {
-  display: flex;
-  padding: 23px 122px;
-  justify-content: space-evenly;
-}
-
-.footer ul {
-  list-style: none;
-}
-
-.footer > div {
-  width: 123px;
 }
 
 footer .footer-rights {
